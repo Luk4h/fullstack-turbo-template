@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-custom-server",
+  "name": "eslint-config-api",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
