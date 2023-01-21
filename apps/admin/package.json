@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "build": "vite build",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
-    "deploy": "vercel deploy dist --team=turborepo --confirm",
-    "dev": "vite --host 0.0.0.0 --port 3001 --clearScreen false",
-    "lint": "tsc --noEmit && TIMING=1 eslint \"src/**/*.ts*\""
+    "clean": "del .turbo && del node_modules && del dist",
+    "dev": "vite --host --port 6080 --clearScreen false",
+    "lint": "tsc --noEmit && eslint \"src/**/*.ts*\""
   },
   "dependencies": {
     "react": "^18.2.0",
