@@ -4,7 +4,13 @@
     "module": "CommonJS",
     "outDir": "./dist",
     "rootDir": "./src",
-    "target": "es2018"
+    "baseUrl": "./src",
+    "target": "es2018",
+    "paths": {
+      "@/resources/*" : ["resources/*"],
+      "@/utils/*" : ["utils/*"],
+      "@/middlewares/*" : ["middlewares/*"],
+    },
   },
   "exclude": ["node_modules"],
   "extends": "tsconfig/base.json",
