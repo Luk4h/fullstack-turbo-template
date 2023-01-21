@@ -1,15 +1,7 @@
-import * as React from "react";
-import "./App.css";
+import * as React from 'react';
 
 function App() {
-  return (
-    <div className="container">
-      <h1 className="title">
-        Admin <br />
-        <span>Kitchen Sink</span>
-      </h1>
-    </div>
-  );
+  return <div className="container"></div>;
 }
 
 export default App;
