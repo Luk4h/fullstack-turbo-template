@@ -1,4 +1,5 @@
 # Luk4h's Fullstack turborepo template
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
 This is an unofficial starter Turborepo with a template backend using Express and frontend with Vite all working in harmony sharing Google's opionated eslint, prettier and tsconfig configurations.
 
