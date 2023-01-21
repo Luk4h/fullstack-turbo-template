@@ -1,10 +1,10 @@
 {
-  "name": "admin",
+  "name": "web",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "vite build",
-    "clean": "del .turbo && del node_modules && del dist",
+    "clean": "del /f /q .turbo && del /f /q node_modules && del /f /q dist",
     "dev": "vite --host --port 6080 --clearScreen false",
     "lint": "tsc --noEmit && eslint \"src/**/*.ts*\""
   },
