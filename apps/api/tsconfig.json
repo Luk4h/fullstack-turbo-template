@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["ES2015"],
+    "lib": ["es2018"],
     "module": "CommonJS",
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "target": "es2018"
   },
   "exclude": ["node_modules"],
   "extends": "tsconfig/base.json",
