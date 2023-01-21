@@ -1,16 +1,31 @@
 {
-  "private": true,
+  "name": "luk4hs-fullstack-turbo-template",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "build": "turbo run build",
     "clean": "turbo run clean",
     "dev": "turbo run dev --no-cache  --continue",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "turbo run lint",
-    "test": "turbo run test"
+    "lint": "turbo run lint"
   },
   "devDependencies": {
-    "prettier": "^2.7.1",
-    "turbo": "latest"
+    "prettier": "^2.8.3",
+    "turbo": "^1.7.0"
   },
+  "keywords": [
+    "typescript",
+    "linter",
+    "formatter",
+    "google",
+    "eslint",
+    "prettier",
+    "turbo",
+    "vite",
+    "react",
+    "express"
+  ],
+  "author": "Luiz Gustavo Marcondes",
+  "license": "ISC",
   "packageManager": "pnpm@7.15.0"
 }
