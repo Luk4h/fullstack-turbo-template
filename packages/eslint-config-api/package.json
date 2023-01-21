@@ -5,13 +5,13 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
     "eslint-config-turbo": "latest",
-    "eslint": "^8.0.0",
-    "eslint-config-prettier": "^8.0.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0"
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-prettier": "latest"
   },
   "publishConfig": {
     "access": "public"
