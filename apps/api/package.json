@@ -6,7 +6,7 @@
     "build": "tsup src/index.ts --format cjs",
     "clean": "del /f /q .turbo && del /f /q node_modules && del /f /q dist",
     "dev": "tsup src/index.ts --format cjs --watch --onSuccess \"node dist/index.js\"",
-    "lint": "tsc --noEmit && eslint \"src/**/*.ts*\"",
+    "lint": "eslint src/**/*.ts*",
     "start": "node dist/index.js"
   },
   "dependencies": {

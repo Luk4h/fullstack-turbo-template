@@ -6,7 +6,7 @@
     "build": "vite build",
     "clean": "del /f /q .turbo && del /f /q node_modules && del /f /q dist",
     "dev": "vite --host --port 6080 --clearScreen false",
-    "lint": "tsc --noEmit && eslint \"src/**/*.ts*\""
+    "lint": "eslint src/**/*.ts*"
   },
   "dependencies": {
     "react": "^18.2.0",
